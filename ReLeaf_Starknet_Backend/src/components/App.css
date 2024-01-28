@@ -1,0 +1,71 @@
+.app-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .wallet-info {
+    margin-top: 20px;
+  }
+  
+  .connected-text {
+    font-weight: bold;
+    color: #4caf50;
+  }
+  
+  .disconnect-button,
+  .check-balance-button,
+  .transfer-button,
+  .connect-wallet-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .disconnect-button:hover,
+  .check-balance-button:hover,
+  .transfer-button:hover,
+  .connect-wallet-button:hover {
+    background-color: #45a049;
+  }
+  
+  .balance-section,
+  .transfer-section {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .balance {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .choose-wallet-text {
+    font-weight: bold;
+    color: #333;
+  }
