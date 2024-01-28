@@ -1,0 +1,11 @@
+[package]
+name = "erc20"
+version = "0.1.0"
+
+# For more keys and definitions, visit https://docs.swmansion.com/scarb/docs/reference/manifest.html
+
+[dependencies]
+starknet = ">=2.2.0"
+openzeppelin = { git = "https://github.com/OpenZeppelin/cairo-contracts.git", tag = "v0.7.0" }
+
+[[target.starknet-contract]]
